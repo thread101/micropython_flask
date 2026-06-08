@@ -273,7 +273,7 @@ class Flask:
 
 
 if __name__ == "__main__":
-    app = Flask("/lib/flask")
+    app = Flask("/lib/uflask")
 
     @app.route('/')
     def home():
