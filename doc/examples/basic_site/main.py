@@ -4,7 +4,7 @@ import socket
 import pHeader
 import json
 
-app = Flask("/www")
+app = Flask("/www/basic_site")
 
 
 @app.route("/")
