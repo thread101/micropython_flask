@@ -189,7 +189,9 @@ class Flask:
                             if _route == route[:len(_route)]:
                                 if method in endpoint.methods:
                                     endpoint.handler(cl, request)
-                                    break
+                                else:
+                                    self.unsupported_method(cl)
+                                break
                         else:
                             if "*" in routes:
                                 endpoint = self.endpoints[routes.index("*")]

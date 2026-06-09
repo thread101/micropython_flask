@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>{title}</h1>
+    <p>LED status: <strong id="led-status">{status}</strong></p>
+    <div class="buttons">
+      <button onclick="setLed('on')">Turn ON</button>
+      <button onclick="setLed('off')">Turn OFF</button>
+    </div>
+    <p><small>Send POST requests to `/led` with the `action` field set to either `"on"` or `"off"`.</small></p>
+  </div>
+  <script src="/static/js/led.js"></script>
+</body>
+</html>

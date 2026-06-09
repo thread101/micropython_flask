@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9fafb;
+  color: #111827;
+}
+
+header {
+  background: #1f2937;
+  color: #f9fafb;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

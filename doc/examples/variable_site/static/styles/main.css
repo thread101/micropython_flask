@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef2ff;
+  color: #111827;
+}
+
+h1 {
+  background-color: #4338ca;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+}
+
+body p,
+body ul {
+  padding: 1rem;
+}
+
+a {
+  color: #2563eb;
+}
